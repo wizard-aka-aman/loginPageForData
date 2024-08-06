@@ -5,7 +5,6 @@ const zod = require("zod")
 const app = express();
 const validator = require('validator');
 
-dotenv.config();
 
 mongoose.connect("mongodb+srv://vermaaman99280:aman1140706@cluster0.vknimfi.mongodb.net/loginform" , {
     useNewUrlParser : true ,
